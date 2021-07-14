@@ -1,0 +1,279 @@
+/*---------------------
+google fonts---------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------------
+banner part start--------------------------------*/
+
+
+.banner{
+    background-color: blue;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  display: flex;
+  padding-bottom: 100px;
+   
+}
+
+.banner:hover{
+    background-color: lightcoral;
+}
+.banner:hover .banner-button{
+    background-color: lightgreen;
+    transition: 2s;
+}
+.banner-title{
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+color: white;
+
+}
+.banner-button{
+    background-color: lightcoral;
+    padding: 10px 20px;
+    margin-left: 200px;
+}
+.banner-image{
+position: absolute;
+width: 556.01px;
+height: 438px;
+margin-left: 443px;
+margin-top: 153px;
+margin-bottom: 86px;
+
+}
+
+/*--------------------------------------------------
+banner part end------------------------------------------*/
+
+
+/*---------------------------
+players part start-------------------*/
+.player-section{
+    background-color: #D5DBDB;
+   
+}
+.player{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-left: 180px;
+    margin-right: 210px;
+    grid-column-gap: 40px;
+    margin-top: 70px;
+  
+   
+}
+.player img{
+    width: 100%;
+}
+.player-info{
+    width: 330px;
+    height: 455px;
+    margin-bottom: 45px;
+    background-color: ivory;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 5 px 5px 20px gray;
+    border-radius: 2%;
+    
+    
+}
+
+@media only screen and (max-width: 688px) {
+    .player{
+       
+        grid-template-columns:repeat(1,1fr);
+    }
+    
+}
+/*-----------
+tablet---------*/
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .player{
+       
+        grid-template-columns:repeat(2,1fr);
+    }
+    
+}
+
+/*------------------
+web ----------------*/
+
+@media only screen and (min-width: 992px) and (max-width:1920px) {
+    .player{
+       
+        grid-template-columns:repeat(3,1fr);
+    }
+    
+}
+
+
+
+
+/*------------------------------------
+player part end----------------------------*/
+
+
+/*------------------------------------------
+copa-america-final part start--------------------------*/
+
+
+
+
+
+.play-button{
+    background-color: brown;
+    padding: 15px;
+    font-size: 20px;
+}
+.final-video{
+    margin-left: 700px;
+
+}
+
+
+
+/*------------------------------------------
+copa-america-final part end-------------------------*/
+
+
+/*-----------------------------------------------------
+copa america winner------------------------------*/
+
+.copa-america-final-details{
+    display: flex;
+    justify-content: center;
+}
+.copa-america-final-title{
+
+        position: static;
+        width: 466px;
+        height: 120px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+
+}
+.play-button{
+    background-color: crimson;
+    text-decoration: none;
+    color: white;
+    padding:10px 50px;
+}
+.copa-america-final-video{
+
+margin-left: 130px;
+
+}
+
+
+span{
+    color: indigo;
+}
+
+.copa-america-champion{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.copa-america-champion-title{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: poppins;
+}
+.copa-america-champion-banner img{
+    width: 500px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width:688px) {
+    .copa-america-final-details{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+/*-------------------------------------
+footer part start-----------------------------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 258px;
+  
+}
+.footer-image{
+    position: static;
+width: 483.87px;
+height: 110px;
+justify-content: center;
+}
+
+.social-icons{
+   
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 25px;
+        margin-left: 100px;
+        position: static;
+        width: 170px;
+        height: 32px;
+        column-gap: 25px;
+        color: gray;
+        
+      
+
+}
+
+.social-icon{
+background-color:#CCD1D1 ;
+border-radius: 50%;
+padding: 10px;
+
+}
+
+.copyright-info{
+  color: #000000;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight:100px;
+        margin-top: 40px;
+        margin-left: 130px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: right;
+        align-items: center;
+
+}
+
+/*--------------------------------------------
+footer part end-------------------------------------*/
+
+
