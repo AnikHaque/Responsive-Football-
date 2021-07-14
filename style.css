@@ -105,29 +105,20 @@ players part start-------------------*/
        
         grid-template-columns:repeat(1,1fr);
     }
+    .copa-america-champion{
+        grid-template-columns: repeat(1,1fr);
+    }
     
 }
 /*-----------
 tablet---------*/
 
-@media only screen and (min-width: 688px) and (max-width:992px) {
-    .player{
-       
-        grid-template-columns:repeat(2,1fr);
-    }
-    
-}
+
 
 /*------------------
 web ----------------*/
 
-@media only screen and (min-width: 992px) and (max-width:1920px) {
-    .player{
-       
-        grid-template-columns:repeat(3,1fr);
-    }
-    
-}
+
 
 
 
@@ -210,13 +201,7 @@ span{
     margin-left: 100px;
 }
 
-@media only screen and (max-width:688px) {
-    .copa-america-final-details{
-        display: flex;
-        flex-direction: row;
-    }
-    
-}
+
 /*-------------------------------------
 footer part start-----------------------------*/
 
